@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+.balok table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+.blok td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  height: 32px;
+  width: 28%;
+
+}
+
+.blok tr:nth-child(even) {
+  background-color:#E0F2F1;
+}
+.admin-islemleri{
+  background-color: white;
+  text-align: center;
+  width: 85%;
+  padding: 15px;
+  margin-left: 70px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.main-banner .admin-islemleri a{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
+}
+.main-banner li a{
+  font-weight:300;
+  border-radius:5px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.main-banner .logo {
+      margin: 5px 10px;
+}
+
+.main-banner .logo a{
+    text-decoration: none;
+}
+.right{
+  float: right;
+}
+.navbar{
+  border:none!important;
+  background:white;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+.giris{
+  display:flex;
+}
+.bb{ background-color:rgb(238, 238, 238)!important;}
+
+.main-banner a {
+  color:black!important;
+  margin:10px;
+
+  font-family: 'Roboto', sans-serif;
+}
+.main-banner li a.active {
+  color: #05A081!important;
+}
+body{ background-image:url(images/backgroundimage.png);}
+
+.nav-item:hover{
+  color:#05A081;
+}
+.blok{
+  border: 1px solid #eae8e0;
+    width: 50%;
+    height: 70%;
+    padding: 3%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.button2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 15%;
+  height:40px;
+  border: 0;
+  color:white;
+
+  float: right;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  background: #05A081;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px
+}
+.button2:hover {
+  background: rgb(31, 219, 182);
+  color: white;
+}

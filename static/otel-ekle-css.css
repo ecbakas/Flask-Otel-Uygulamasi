@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+.admin-islemleri{
+  background-color: white;
+  text-align: center;
+  width: 85%;
+  padding: 15px;
+  margin-left: 70px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+.main-banner .admin-islemleri a{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
+}
+.main-banner li a{
+  font-weight:300;
+  border-radius:5px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.main-banner .logo {
+      margin: 5px 10px;
+}
+
+.main-banner .logo a{
+    text-decoration: none;
+}
+.right{
+  float: right;
+}
+.navbar{
+  border:none!important;
+  background:white;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+.giris{
+  display:flex;
+}
+.main-banner a {
+  color:black!important;
+  margin:10px;
+
+  font-family: 'Roboto', sans-serif;
+}
+.main-banner li a.active {
+  color: #05A081!important;
+}
+.bb{ background-color:rgb(238, 238, 238)!important;}
+.sehir input{
+
+  margin: 0px 3px;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  height:40px;
+  margin-bottom:15px;
+  margin-top:5px;
+  background: #FFFFFF;
+  border: 1px solid #9BA2A6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding:10px;
+
+}
+.otelp{width:45%!important;float: right;}
+.otelf{width:45%!important;}
+.buton{background:#05A081!important;color:#fff;}
+.nav-item:hover{
+  color:#05A081;
+}
+.giris input{
+
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 90%;
+  margin-bottom:15px;
+  margin-top:5px;
+  background: #FFFFFF;
+  border: 1px solid #9BA2A6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding:10px;
+}
+.blok{
+  border: 1px solid #eae8e0;
+    width: 30%;
+    height: 70%;
+    padding: 3%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.odasayisi label{
+      margin-right: 20px;
+}
+.button2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  height:40px;
+  border: 0;
+  color:white;
+
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  background: #05A081;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px
+}
+.button2:hover {
+  background: rgb(31, 219, 182);
+  color: white;
+}
+.blok input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  margin-bottom:15px;
+  margin-top:5px;
+  background: #FFFFFF;
+  border: 1px solid #9BA2A6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding:10px;
+}
